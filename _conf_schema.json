@@ -1,0 +1,22 @@
+{
+    "enable": {
+        "type": "bool",
+        "description": "是否启用自定义系统提示词注入",
+        "default": true
+    },
+    "prefix_prompt": {
+        "type": "text",
+        "description": "头部系统提示词（将添加到最前面，优先级最高）",
+        "default": ""
+    },
+    "suffix_prompt": {
+        "type": "text",
+        "description": "尾部系统提示词（将添加到最后面）",
+        "default": ""
+    },
+    "separator": {
+        "type": "string",
+        "description": "提示词之间的分隔符",
+        "default": "\n\n"
+    }
+}
